@@ -1,0 +1,14 @@
+CREATE TABLE table_customer(
+    customer_id integer primary key autoincrement,
+    customer_uxid text not null,
+    customer_realname text not null,
+    customer_code text not null,
+    customer_phone text not null,
+    customer_company text not null,
+    customer_email text not null,
+    customer_address1 text not null,
+    customer_address2 text not null,
+    customer_address3 text not null,
+    customer_address4 text not null,
+    customer_address5 text not null,
+    customer_timestamp integer not null)
